@@ -17,7 +17,7 @@ public class AndroidSetupTest extends BaseTest
 	@Test
 	public void login() throws MalformedURLException
 	{
-		driver.findElement(By.id("username")).sendKeys("asad@gmail.com");
+		driver.findElement(By.id("username")).sendKeys("anayet@gmail.com");
         driver.findElement(By.id("password")).sendKeys("1234passmim");
         driver.findElement(By.id("login")). click();
 	}
