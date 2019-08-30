@@ -17,7 +17,6 @@ public class BaseTest
 	public AndroidDriver driver;
 	
 	@BeforeTest
-	
 	public void connectServer() throws MalformedURLException 
 	{
 		//Java
@@ -38,11 +37,11 @@ public class BaseTest
         driver =  new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 	}
 	
-	/*@AfterTest
+	@AfterTest
 	public void tearDown()
 	{
-		driver.close();
-	}*/
+		driver.quit();
+	}
 	
 	
 	
