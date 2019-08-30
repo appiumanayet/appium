@@ -15,9 +15,8 @@ import io.appium.java_client.android.AndroidDriver;
 public class AndroidSetupTest extends BaseTest
 {
 	@Test
-	public void login() throws MalformedURLException 
+	public void login() throws MalformedURLException
 	{
-		// Locators on the login screen
 		driver.findElement(By.id("username")).sendKeys("asad@gmail.com");
         driver.findElement(By.id("password")).sendKeys("1234passmim");
         driver.findElement(By.id("login")). click();;
