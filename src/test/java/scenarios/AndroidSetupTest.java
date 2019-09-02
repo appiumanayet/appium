@@ -20,6 +20,5 @@ public class AndroidSetupTest extends BaseTest
 	driver.findElement(By.id("username")).sendKeys("anayet@gmail.com");
         driver.findElement(By.id("password")).sendKeys("1234passmim");
         driver.findElement(By.id("login")). click();
-	}
-	
+	}	
 }
